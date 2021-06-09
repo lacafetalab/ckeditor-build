@@ -2,7 +2,7 @@
   "name": "@cafeta/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "publishConfig": {
     "access": "public"
@@ -20,6 +20,8 @@
     "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-link": "^27.0.0",
     "@ckeditor/ckeditor5-list": "^27.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^27.0.0",
+    "@ckeditor/ckeditor5-table": "^27.0.0",
     "@ckeditor/ckeditor5-paragraph": "^27.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^27.0.0",
     "css-loader": "^5.2.0",

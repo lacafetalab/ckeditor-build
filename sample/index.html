@@ -77,8 +77,7 @@
 	</footer>
 	<script src="../build/ckeditor.js"></script>
 	<script>ClassicEditor
-			.create( document.querySelector( '.editor' ), {
-				
+			.create( document.querySelector( '.editor' ), {		
 				toolbar: {
 					items: [
 						'heading',
@@ -92,10 +91,22 @@
 						'blockQuote',
 						'undo',
 						'redo',
-						'imageUpload'
+						'imageUpload',
+						"|",
+						'insertTable',
+						'mediaEmbed'
 					]
 				},
 				language: 'es',
+				table: {
+					contentToolbar: [
+						'tableColumn',
+						'tableRow',
+						'mergeTableCells',
+						'tableCellProperties',
+						'tableProperties'
+					]
+				},
 				image: {
 					toolbar: [
 						'imageTextAlternative',
@@ -104,19 +115,9 @@
 					]
 				},
 				licenseKey: '',
-				
-				
 			} )
 			.then( editor => {
 				window.editor = editor;
-		
-				
-				
-				
-		
-				
-				
-				
 			} )
 			.catch( error => {
 				console.error( 'Oops, something went wrong!' );

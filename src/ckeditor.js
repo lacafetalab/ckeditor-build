@@ -10,14 +10,15 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
-import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imageresizeedititing';
-import ImageResizeButtons from '@ckeditor/ckeditor5-image/src/imageresize/imageresizebuttons';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
-import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
+import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
+import Table from '@ckeditor/ckeditor5-table/src/table.js';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 
 class Editor extends ClassicEditor { }
@@ -31,14 +32,15 @@ Editor.builtinPlugins = [
 	Image,
 	ImageCaption,
 	ImageResize,
-	ImageResizeEditing,
-	ImageResizeButtons,
 	ImageStyle,
-	ImageToolbar,
 	ImageUpload,
 	Italic,
 	Link,
 	List,
+	MediaEmbed,
+	Table,
+	TableCellProperties,
+	TableProperties,
 	Paragraph
 ];
 
