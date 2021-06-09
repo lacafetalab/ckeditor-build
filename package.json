@@ -2,12 +2,14 @@
   "name": "@cafeta/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "SEE LICENSE IN LICENSE.md",
-  "publishConfig": {
-    "access": "public"
-  },
   "private": false,
+  "files": [
+    "build/",
+    "src",
+    "sample"
+  ],
   "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^27.0.0",
