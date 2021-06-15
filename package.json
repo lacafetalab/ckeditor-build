@@ -2,7 +2,7 @@
   "name": "@cafeta/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "files": [
@@ -19,12 +19,13 @@
     "@ckeditor/ckeditor5-editor-classic": "^27.0.0",
     "@ckeditor/ckeditor5-essentials": "^27.0.0",
     "@ckeditor/ckeditor5-heading": "^27.0.0",
+    "@ckeditor/ckeditor5-html-embed": "27.0.0",
     "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-link": "^27.0.0",
     "@ckeditor/ckeditor5-list": "^27.0.0",
     "@ckeditor/ckeditor5-media-embed": "^27.0.0",
-    "@ckeditor/ckeditor5-table": "^27.0.0",
     "@ckeditor/ckeditor5-paragraph": "^27.0.0",
+    "@ckeditor/ckeditor5-table": "^27.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^27.0.0",
     "css-loader": "^5.2.0",
     "postcss": "^8.2.8",
@@ -37,5 +38,6 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "dependencies": {}
 }

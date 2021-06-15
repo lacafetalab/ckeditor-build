@@ -169,6 +169,13 @@
   dependencies:
     ckeditor5 "^27.1.0"
 
+"@ckeditor/ckeditor5-html-embed@27.0.0":
+  version "27.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-html-embed/-/ckeditor5-html-embed-27.0.0.tgz#cdfd0bd403ee349d41b80f5415f67121e031cb20"
+  integrity sha512-4t9huQKQuW3zBMncazpkb68CvL4qyWA9VzD4jKk6aM3PPotF0h8BsPnI5ly3Lray5KVnz+30ZkkZSE7y2XAt5g==
+  dependencies:
+    ckeditor5 "^27.0.0"
+
 "@ckeditor/ckeditor5-html-embed@^27.1.0":
   version "27.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-html-embed/-/ckeditor5-html-embed-27.1.0.tgz#1eb7a331f3a2c416e365346980e358fe8546afca"
@@ -1164,7 +1171,7 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-ckeditor5@^27.1.0:
+ckeditor5@^27.0.0, ckeditor5@^27.1.0:
   version "27.1.0"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-27.1.0.tgz#9a5ceea2ba2582b0e11f0f95f6956ff1ddfc118d"
   integrity sha512-XBoMqrML4mmQozSBXgZfFUBJPN3ErTls0wQhP8YkOiglhNXSBaLIE07QKcB0/H/lA2luqxijJGSXw7sr5SWE1A==
