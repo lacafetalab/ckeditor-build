@@ -21,6 +21,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 class Editor extends ClassicEditor { }
 
@@ -43,7 +44,8 @@ Editor.builtinPlugins = [
 	TableCellProperties,
 	TableProperties,
 	Paragraph,
-	HtmlEmbed
+	HtmlEmbed,
+	Alignment
 ];
 
 export default Editor;
